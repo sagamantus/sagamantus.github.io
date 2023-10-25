@@ -6,7 +6,8 @@ on:
       - main
 
 env:
-  NODE_ENV: 'production'
+  NODE_ENV: production
+  JEKYLL_ENV: production
 
 jobs:
   github-pages:
@@ -23,6 +24,7 @@ jobs:
           node-version: '12'
       - run: npm update
       - run: npm install postcss
+      - run: bundle 
       - name: Build site
         uses: limjh16/jekyll-action-ts@v2
         with:
