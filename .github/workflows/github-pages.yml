@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '12'
-      - run: npm install
+      - run: npm update
       - run: npm install postcss
       - name: Build site
         uses: limjh16/jekyll-action-ts@v2
