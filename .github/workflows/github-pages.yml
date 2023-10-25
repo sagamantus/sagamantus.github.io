@@ -37,8 +37,11 @@ jobs:
 
       - name: Build Jekyll site
         run: |
-          bundle exec jekyll build
+          bundle exec jekyll build --trace
         working-directory: .
+        env:
+          JEKYLL_ENV: production
+
 
       - name: Build Tailwind CSS
         run: |
