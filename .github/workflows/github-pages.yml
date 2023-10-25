@@ -24,11 +24,6 @@ jobs:
           bundle install
         working-directory: .
 
-      - name: Build Jekyll site
-        run: |
-          bundle exec jekyll build
-        working-directory: .
-
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
@@ -37,6 +32,12 @@ jobs:
       - name: Install Node.js dependencies
         run: |
           npm install
+        working-directory: .
+
+
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build
         working-directory: .
 
       - name: Build Tailwind CSS
