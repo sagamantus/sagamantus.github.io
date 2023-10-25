@@ -23,13 +23,13 @@ jobs:
       # https://github.com/ruby/setup-ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7 # Not needed with a .ruby-version file
+          ruby-version: 3.0 # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       # Install Node as this is needed for PostCSS
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '21'
       # Install PostCSS plugins (from your package.json)
       - run: npm install
       - name: Build site
