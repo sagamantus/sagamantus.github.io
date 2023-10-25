@@ -1,0 +1,15 @@
+- project1:
+  heading: "###### **HackerNewsAPI**"
+  subheading: "FastAPI, BeautifulSoup, Docker, Postman"
+  content: |
+    *[Github](https://github.com/sagamantus/HackerNewsAPI/)*
+    - An API that retrieves and serves up-to-date news content, providing users with a curated feed of Hacker News.
+    - Uses Docker for containerization, ensuring seamless deployment and Postman was used for API testing and validation.
+
+- project2:
+  heading: "###### **CP Scheduler Notion**"
+  subheading: "Python, Notion, Notion API"
+  content: |
+    *[Github](https://github.com/sagamantus/cp-scheduler-notion/)*
+    - A Python automation deployed on Replit that fetches and updates a Notion database with upcoming Competitive Programming 
+      contest information.

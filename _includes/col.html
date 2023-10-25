@@ -1,0 +1,11 @@
+<div class="pl-4 column">
+  {% if include.heading %}
+    {{ include.heading | markdownify }}
+    <hr class="mx-auto mb-1 w-2/6 " />
+  {% endif %}
+  {% if include.subheading %}
+    {{ include.subheading | markdownify }}
+    <hr class="mx-auto mb-1 w-2/6" />
+  {% endif %}
+  <div class="text-justify">{{ include.content | markdownify }}</div>
+</div>
