@@ -1,9 +1,9 @@
 name: Jekyll Deploy
 
 on:
-  schedule:
+  # schedule:
     # run daily at 05:30
-    - cron:  '30 5 * * *'
+  #  - cron:  '30 5 * * *'
   push:
     branches:
       - main
