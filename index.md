@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sagar Mankoti"
+title: "Home"
 
 about: |
     Hello, I'm Sagar Mankoti, a CSE undergrad from Indian Institute of Information Technology Kalyani.
@@ -38,7 +38,8 @@ STUDENT - BACKEND DEVELOPER - COMPETITIVE PROGRAMMER - PYTHONISTA
 ___
 *[Email](mailto:sagarmankoti@gmail.com)* | 
 *[LinkedIn](https://www.linkedin.com/in/sagar-mankoti)* | 
-*[GitHub](https://github.com/sagamantus)*
+*[GitHub](https://github.com/sagamantus)* | 
+*[Blogs](/blogs)*
 
 {% include grid.html %}
    {% include col.html heading="#### *__About Me__*" content=page.about %}
