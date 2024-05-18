@@ -3,30 +3,28 @@ layout: default
 title: "Home"
 
 about: |
-    Hello, I'm Sagar Mankoti, a CSE undergrad from Indian Institute of Information Technology Kalyani.
-    While my primary focus is on Backend Development, I'm also passionate about exploring various other
-    aspects of computer science like Network Engineering, Compilers, Operating System, UI/UX and 
-    Cloud-based Technologies. 
-
-    Every other day, a new technology catches my eye and I dive right into it. Hence, I learn something 
-    new everyday. I believe in use from books, articles, and documentation over video tutorials. 
-
-    I was a part of the core team of Google Developer Students Club of IIIT Kalyani where I polished my 
-    skills of webscraping, UI/UX and website development. I also had a chance to organise an in-person 
-    hackathon named *statusCode 0* where I played the role of a Technical Manager. I was involved in 
-    designing the hackathon's website, scraping hacker data, managing judges and assisting on field.
-
-    Apart from coding, I enjoy sketching (probably not the best but I try), reading manga, and watching
-    anime.
-
-    PS: Lately, I'm using LunarVim and hold the ancient knowledge of how to exit Vim!
-
+    \> be me  
+    \> CSE undergrad at IIIT Kalyani  
+    \> focus on backend development  
+    \> network engineering, compilers, os, ui/ux, and cloud tech enjoyer
+    \
+    \> try to learn something new all the time  
+    \> prefer books and docs over video tutorials  
+    \
+    \> ICPC regionalist '23  
+    \> ex core team of GDSC IIIT Kalyani  
+    \> organized *statusCode 0* hackathon  
+    \
+    \> read manga  
+    \> watch anime  
+    \> try sketching
+    
 blogs: |
     **[Automating Zerodha Login without Selenium - A Pythonic Approach](https://dev.to/sagamantus/automating-zerodha-login-without-selenium-a-pythonic-approach-3b8o):** 
     An article on programmatically simulating the login proecess of KiteAPI by Zerodha independent of Selenium.
     
     <br />
-    ![Cute Kitten Image](/assets/image/kitten.png)
+    ![Vintage Computer](/assets/image/vintage-computer.jpg)
 
 ---
 
